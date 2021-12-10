@@ -1,0 +1,62 @@
+{
+  "object_kind": "push",
+  "event_name": "push",
+  "before": "0000000000000000000000000000000000000000",
+  "after": "4270526b72fadfbc24f056f7d20360572ad66bc4",
+  "ref": "refs/heads/main",
+  "checkout_sha": "4270526b72fadfbc24f056f7d20360572ad66bc4",
+  "message": null,
+  "user_id": 9218634,
+  "user_name": "d s",
+  "user_username": "ds2000434",
+  "user_email": "",
+  "user_avatar": "https://secure.gravatar.com/avatar/6f0ae07db6e33c60145bfdccb66aa4d7?s=80&d=identicon",
+  "project_id": 27783396,
+  "project": {
+    "id": 27783396,
+    "name": "test",
+    "description": null,
+    "web_url": "https://gitlab.com/te21/test",
+    "avatar_url": null,
+    "git_ssh_url": "git@gitlab.com:te21/test.git",
+    "git_http_url": "https://gitlab.com/te21/test.git",
+    "namespace": "test",
+    "visibility_level": 0,
+    "path_with_namespace": "te21/test",
+    "default_branch": "main",
+    "ci_config_path": "",
+    "homepage": "https://gitlab.com/te21/test",
+    "url": "git@gitlab.com:te21/test.git",
+    "ssh_url": "git@gitlab.com:te21/test.git",
+    "http_url": "https://gitlab.com/te21/test.git"
+  },
+  "commits": [
+    {
+      "id": "4270526b72fadfbc24f056f7d20360572ad66bc4",
+      "message": "Update Dockerfile",
+      "title": "Update Dockerfile",
+      "timestamp": "2021-06-29T14:42:56+00:00",
+      "url": "https://gitlab.com/te21/test/-/commit/4270526b72fadfbc24f056f7d20360572ad66bc4",
+      "author": {
+        "name": "d s",
+        "email": "ds2000434@protonmail.ch"
+      },
+      "added": [
+        "Dockerfile"
+      ],
+      "modified": [],
+      "removed": []
+    }
+  ],
+  "total_commits_count": 1,
+  "push_options": {},
+  "repository": {
+    "name": "test",
+    "url": "git@gitlab.com:te21/test.git",
+    "description": null,
+    "homepage": "https://gitlab.com/te21/test",
+    "git_http_url": "https://gitlab.com/te21/test.git",
+    "git_ssh_url": "git@gitlab.com:te21/test.git",
+    "visibility_level": 0
+  }
+}

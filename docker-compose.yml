@@ -1,0 +1,27 @@
+version: '2.1'
+
+services:
+  db:
+    image: "mysql:5.6"
+    ports:
+      - "3306"
+    container_name: db
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=diff-api
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+    healthcheck:
+      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
+      timeout: 20s
+      retries: 10
+  web:
+    build: .
+    ports:
+      - "9000:9000"
+    stdin_open: true
+    tty: true
+    container_name: web
+    depends_on:
+      db:
+        condition: service_healthy

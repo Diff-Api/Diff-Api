@@ -1,0 +1,11 @@
+repositories:
+#-  {type: GITHUB,
+#    user: John,
+#    repo: repo,
+#    branch: main}
+#-  {type: GITLAB,
+#    baseUrl: 'http://localhost:2080',
+#    repoId: '2',
+#    branch: main,
+#    monitoringInterval: 10000}
+ccimsApi: "http://93.219.161.67:9005/api"
